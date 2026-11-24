@@ -12,3 +12,7 @@ services:
   packages:
   - name: ANBA_DADA_DemoProject
     version: "1.0"
+- serviceName: project.anba_dada_demo.integrations:test2
+  packages:
+  - name: ANBA_DADA_DemoProject
+    version: "1.0"
