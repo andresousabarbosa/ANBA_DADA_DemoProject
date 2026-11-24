@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">restDescriptor</value>
+  <value name="node_subtype">restv2Descriptor</value>
+  <value name="node_nsName">project.anba_dada_demo.rad:Test1</value>
+  <value name="node_pkg">ANBA_DADA_DemoProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <record name="revisionData" javaclass="com.wm.util.Values">
+      <value name="createdBy">ANDRE BARBOSA</value>
+      <value name="createdByUserId">642d032bf19e4f058a7ccd13d3536a80</value>
+      <number name="createdDate" type="Long">1795549127350</number>
+      <value name="lastModifiedBy">ANDRE BARBOSA</value>
+      <value name="lastModifiedByUserId">642d032bf19e4f058a7ccd13d3536a80</value>
+      <number name="lastModifiedDate" type="Long">1795549127350</number>
+    </record>
+    <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
+    <value name="createdDate">2026-11-24T19:38:47.346385472Z</value>
+    <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-24T19:38:47.380944025Z</value>
+  </record>
+  <value name="is_public">true</value>
+  <null name="sourceUri"/>
+  <null name="swaggerUrl"/>
+  <Boolean name="modifiable">true</Boolean>
+  <record name="generalInfo" javaclass="com.wm.util.Values">
+    <value name="specVersion">2.0</value>
+    <value name="hostName">localhost:443</value>
+    <value name="basePath">/rad/project.anba_dada_demo.rad:Test1</value>
+    <array name="schemes" type="value" depth="1">
+      <value>https</value>
+    </array>
+    <array name="consumes" type="value" depth="1">
+      <value>application/json</value>
+    </array>
+    <array name="produces" type="value" depth="1">
+      <value>application/json</value>
+    </array>
+  </record>
+  <record name="appInfo" javaclass="com.wm.util.Values">
+    <value name="appVersion">1.0</value>
+    <value name="description">Teste</value>
+    <null name="title"/>
+    <null name="termsOfService"/>
+    <record name="contact" javaclass="com.wm.util.Values">
+      <null name="contactName"/>
+      <null name="contactUrl"/>
+      <null name="contactEmail"/>
+    </record>
+    <record name="license" javaclass="com.wm.util.Values">
+      <null name="licenseName"/>
+      <null name="licenseUrl"/>
+    </record>
+  </record>
+  <record name="restDefinitions" javaclass="com.wm.util.Values">
+  </record>
+  <record name="restResources" javaclass="com.wm.util.Values">
+  </record>
+  <Boolean name="matchRequestResponsePayloadWithRad">true</Boolean>
+  <null name="radSource"/>
+  <value name="radVersion">1.0</value>
+  <array name="generatedDoctypes" type="record" depth="1">
+  </array>
+  <array name="generatedServices" type="record" depth="1">
+  </array>
+  <array name="generatedRestResources" type="record" depth="1">
+  </array>
+  <Boolean name="addRootElementToResponse">true</Boolean>
+</Values>
