@@ -12,12 +12,13 @@
       <number name="createdDate" type="Long">1795548011751</number>
       <value name="lastModifiedBy">ANDRE BARBOSA</value>
       <value name="lastModifiedByUserId">642d032bf19e4f058a7ccd13d3536a80</value>
-      <number name="lastModifiedDate" type="Long">1795548011751</number>
+      <number name="lastModifiedDate" type="Long">1795548047450</number>
     </record>
     <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
     <value name="createdDate">2026-11-24T19:20:11.735658731Z</value>
     <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-24T19:20:11.790442821Z</value>
+    <value name="lastModifiedDate">2026-11-24T19:20:47.521438794Z</value>
+    <value name="isPrivate">false</value>
   </record>
   <value name="is_public">true</value>
   <null name="sourceUri"/>
@@ -54,6 +55,29 @@
   <record name="restDefinitions" javaclass="com.wm.util.Values">
   </record>
   <record name="restResources" javaclass="com.wm.util.Values">
+    <record name="/test" javaclass="com.wm.util.Values">
+      <value name="nsName">project.anba_dada_demo.rad.Test_.resources:Test_resource</value>
+      <value name="path">/test</value>
+      <null name="suffix"/>
+      <record name="operations" javaclass="com.wm.util.Values">
+        <record name="POST" javaclass="com.wm.util.Values">
+          <value name="operationType">POST</value>
+          <value name="nsName">/test_POST</value>
+          <record name="responses" javaclass="com.wm.util.Values">
+            <record name="200" javaclass="com.wm.util.Values">
+              <value name="statusCode">200</value>
+              <value name="description">OK</value>
+              <Boolean name="returnOutput">true</Boolean>
+            </record>
+            <record name="401" javaclass="com.wm.util.Values">
+              <value name="statusCode">401</value>
+              <value name="description">Access Denied</value>
+              <Boolean name="returnOutput">false</Boolean>
+            </record>
+          </record>
+        </record>
+      </record>
+    </record>
   </record>
   <Boolean name="matchRequestResponsePayloadWithRad">true</Boolean>
   <null name="radSource"/>
@@ -63,6 +87,9 @@
   <array name="generatedServices" type="record" depth="1">
   </array>
   <array name="generatedRestResources" type="record" depth="1">
+  </array>
+  <array name="resourceNodeNSNames" type="value" depth="1">
+    <value>project.anba_dada_demo.rad.Test_.resources:Test_resource</value>
   </array>
   <Boolean name="addRootElementToResponse">true</Boolean>
 </Values>
