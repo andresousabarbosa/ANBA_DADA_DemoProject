@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/andresousabarbosa
   gitUsername: andresousabarbosa
   gitBranch: main
+services:
+- serviceName: project.anba_dada_demo.integrations:test1
+  packages:
+  - name: ANBA_DADA_DemoProject
+    version: "1.0"
