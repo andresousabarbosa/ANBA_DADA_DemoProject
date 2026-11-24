@@ -6,6 +6,12 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.anba_dada_demo.rad.Test1_.resources.Test1_resource_.docTypes:Test1_resource</value>
     <value name="node_pkg">ANBA_DADA_DemoProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
+      <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
+      <value name="createdDate">2026-11-24T19:38:47.339516040Z</value>
+      <value name="lastModifiedDate">2026-11-24T19:39:00.365131423Z</value>
+    </record>
     <value name="is_public">false</value>
     <value name="field_name">Test1_resource</value>
     <value name="field_type">record</value>
@@ -16,11 +22,6 @@
     <array name="rec_fields" type="record" depth="1">
     </array>
     <value name="modifiable">false</value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
-      <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
-      <value name="createdDate">2026-11-24T19:38:47.339516040Z</value>
-      <value name="lastModifiedDate">2026-11-24T19:38:47.339516040Z</value>
-    </record>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
