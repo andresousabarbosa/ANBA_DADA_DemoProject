@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: ANBA_DADA_DemoProject
+  gitServerName: github_brandrebarbosa
+  gitUrl: https://github.com/andresousabarbosa
+  gitUsername: andresousabarbosa
+  gitBranch: main
