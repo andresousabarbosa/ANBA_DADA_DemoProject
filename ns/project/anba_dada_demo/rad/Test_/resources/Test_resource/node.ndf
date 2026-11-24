@@ -9,7 +9,7 @@
     <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
     <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
     <value name="createdDate">2026-11-24T19:20:11.722002966Z</value>
-    <value name="lastModifiedDate">2026-11-24T19:20:47.463028328Z</value>
+    <value name="lastModifiedDate">2026-11-24T19:20:53.763870307Z</value>
   </record>
   <value name="is_public">false</value>
   <record name="restResource" javaclass="com.wm.util.Values">
