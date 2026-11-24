@@ -11,8 +11,7 @@ properties {
     cacheExpire: 15;
     prefetch: false;
     prefetchActivation: 1;
-    pipelineDebug: None;
-    allowedHttpMethods: [TRACE, HEAD, DELETE, POST, GET, OPTIONS, PUT, PATCH];
+    allowedHttpMethods: [ATC, OS, RAC, E, U, ELET, PTION, EA];
     maxRetryAttempts: 0;
     retryInterval: 0;
     enableAuditing: never;
