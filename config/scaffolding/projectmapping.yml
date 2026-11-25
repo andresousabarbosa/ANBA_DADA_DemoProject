@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: ANBA_DADA_DemoProject
+runtimes:
+- runtimeAlias: wm_edge_branba
+  assets:
+  - name: APITesteCloud
+    type: REST
+    path: /test
+    action: POST
+    reference: fld_111566327_stage00.projects.fl1eb1fb48cb4d48dba9d0231bac028cd9.WmPackageServiceProvider.project.anba_dada_demo.integrations:test1
