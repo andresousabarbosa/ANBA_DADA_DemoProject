@@ -11,7 +11,8 @@ properties {
     cacheExpire: 15;
     prefetch: false;
     prefetchActivation: 1;
-    allowedHttpMethods: [ATC, OS, RAC, E, U, ELET, PTION, EA];
+    pipelineDebug: None;
+    allowedHttpMethods: [TRACE, HEAD, DELETE, POST, GET, OPTIONS, PUT, PATCH];
     maxRetryAttempts: 0;
     retryInterval: 0;
     enableAuditing: never;
@@ -36,5 +37,9 @@ properties {
             String message;
         }
         set `message` = "teste2";
+    }
+    INVOKE pub.flow:setCustomTransactionId {
+        validateInput: false
+        validateOutput: false
     }
 }
