@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:setCustomContextID">
+<INVOKE NAME="Flow" SERVICE="pub.flow:setCustomContextID" DISABLED="true">
   <COMMENT></COMMENT>
 </INVOKE>
 
@@ -122,12 +122,12 @@
 
 <Values version="2.0">
   <record name="xml" javaclass="com.wm.util.Values">
-    <number name="ttl" type="Long">120</number>
-    <Boolean name="isAsync">false</Boolean>
+    <value name="agentGroup">default</value>
     <value name="agentName">LOCAL</value>
     <value name="displayName">LOCAL</value>
-    <value name="agentGroup">default</value>
     <value name="executionPlaneType">local</value>
+    <Boolean name="isAsync">false</Boolean>
+    <number name="ttl" type="Long">120</number>
   </record>
 </Values>
 </STEP_LEVEL_PROPERTIES>

@@ -64,7 +64,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-25T16:32:03.986176452Z</value>
+    <value name="lastModifiedDate">2026-11-25T16:35:43.102326933Z</value>
     <value name="displayName">test3</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -108,8 +108,8 @@
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">1</value>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <value name="nodePathForDebug">1</value>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">test1</value>
@@ -122,6 +122,8 @@
           <value name="executionPlaneType">local</value>
         </record>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
       </record>
     </record>
     <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
