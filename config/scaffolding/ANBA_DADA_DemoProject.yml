@@ -12,6 +12,14 @@ services:
   packages:
   - name: ANBA_DADA_DemoProject
     version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
+- serviceName: pub.flow:setCustomTransactionId
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
 - serviceName: project.anba_dada_demo.integrations:test2
   packages:
   - name: ANBA_DADA_DemoProject
