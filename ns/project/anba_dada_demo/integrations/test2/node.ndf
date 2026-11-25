@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-25T14:41:22.799883202Z</value>
+    <value name="lastModifiedDate">2026-11-25T14:52:38.080008086Z</value>
     <value name="displayName">test2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
