@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="node_type">interface</value>
-  <value name="node_subtype">unknown</value>
-  <value name="node_nsName">project.anba_dada_demo.integrations</value>
-  <value name="node_pkg">ANBA_DADA_DemoProject</value>
-  <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="modifiedBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="createdDate">2026-11-24T13:53:34.855398970Z</value>
-    <value name="lastModifiedDate">2026-11-24T13:53:34.855398970Z</value>
-  </record>
-  <value name="is_public">false</value>
 </Values>
