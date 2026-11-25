@@ -8,3 +8,7 @@ runtimes:
     path: /test
     action: POST
     reference: fld_111566327_stage00.projects.fl1eb1fb48cb4d48dba9d0231bac028cd9.WmPackageServiceProvider.project.anba_dada_demo.integrations:test1
+  - name: fld_111566327_stage00.projects.fl1eb1fb48cb4d48dba9d0231bac028cd9.integrations:simpleFlow
+    type: flow
+    stepId: /1
+    reference: fld_111566327_stage00.projects.fl1eb1fb48cb4d48dba9d0231bac028cd9.WmPackageServiceProvider.project.anba_dada_demo.integrations:test2
